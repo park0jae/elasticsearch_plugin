@@ -8,9 +8,8 @@ import org.elasticsearch.index.analysis.AbstractTokenFilterFactory;
 
 public class ChosungFilterFactory extends AbstractTokenFilterFactory {
 
-	public ChosungFilterFactory(IndexSettings indexSettings, Environment env, String name,
-			Settings settings) {
-		super(indexSettings, name, settings);
+	public ChosungFilterFactory(IndexSettings indexSettings, Environment environment, String name, Settings settings) {
+		super(name, settings);
 	}
 
 	@Override

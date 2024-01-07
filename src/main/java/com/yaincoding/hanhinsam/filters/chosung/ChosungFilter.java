@@ -24,7 +24,6 @@ public class ChosungFilter extends TokenFilter {
 			charAttr.setEmpty().append(chosung);
 			return true;
 		}
-
 		return false;
 	}
 }

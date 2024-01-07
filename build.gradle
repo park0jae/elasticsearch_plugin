@@ -1,13 +1,13 @@
 buildscript {
-  repositories {
-    mavenLocal()
-    mavenCentral()
-    jcenter()
-  }
+	repositories {
+		mavenLocal()
+		mavenCentral()
+		jcenter()
+	}
 
-  dependencies {
-    classpath "org.elasticsearch.gradle:build-tools:8.1.2"
-  }
+	dependencies {
+		classpath "org.elasticsearch.gradle:build-tools:8.5.3"
+	}
 }
 
 plugins {
@@ -32,7 +32,7 @@ repositories {
 }
 
 dependencies {
-	implementation group: 'org.elasticsearch', name: 'elasticsearch', version: '8.1.2'
+	implementation group: 'org.elasticsearch', name: 'elasticsearch', version: '8.5.3'
 	testImplementation group: 'org.junit.jupiter', name: 'junit-jupiter-api', version: '5.7.0'
 	testImplementation group: 'org.junit.jupiter', name: 'junit-jupiter-engine', version: '5.7.0'
 }
